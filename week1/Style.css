@@ -1,0 +1,360 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1d613d;
+}
+.page{
+    width: 1000px;
+    height: 1380px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 33px -4px black;
+    overflow: hidden; 
+    background-color:  #2196f3;
+    }
+.head{
+    width: 70%;
+    height: 100px;
+    float: right;
+    background-color: #2196f3;
+}
+.head h2{
+    margin-left: 30px;
+    font-size: 28px;
+    color: #fff;
+    
+}
+aside {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-top: -20px;
+    overflow: hidden;
+}  
+.sideBar {
+   width: 100%;
+   background-color: #2196f3;
+   overflow: hidden;
+} 
+.sideBar-top{
+   width: 100%;
+   margin-bottom: 16px;
+   background-color: #2196f3;
+   overflow: hidden;
+}
+
+.title{
+    width: 200px;
+    height: 46px;
+    padding-top: 7px;
+    background-color: #2196f3;
+}
+i {
+   float: left;
+   padding: 0 16px 0 26px;
+   margin-top: 5px;
+   font-size: 21px;
+   color: #fff; 
+}
+
+h2 {
+    float: left;
+    padding: 3px 0 0 0;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff; 
+}
+.head h2{
+    margin-top: 30px;
+}
+.sideBar-bottom ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+
+}
+.sideBar-bottom ul li {
+    padding:10px;
+    background-color: #2196f3;
+    overflow: hidden;
+    text-align: center;
+    margin-left:1px;
+    
+ }
+.phone-icon {
+    float: left;
+    width: 60px;
+    margin-left: 5px;
+   
+    
+    font-size: 20px;
+    color:  #fff;
+}
+.phone-number p {
+    float: left;
+    width: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0px;
+    color:  #fff;
+}
+.email-icon {
+    float: left;
+    width: 60px;
+    margin-left: 5px;
+    font-size: 20px;
+    color:  #fff;
+}
+.email{
+    float: left;
+    width: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0px;
+    padding:0px;
+    color:  #fff;
+}
+.email p{
+    float: left;
+    width: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0px;
+    padding:0px;
+}
+.adres-icon{
+    float: left;
+    width: 60px;
+    margin-left: 10px;
+    font-size: 20px;
+    color:  #fff;
+}
+ .adres{
+    float: left;
+
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0px;
+    padding:0px;
+    color:  #fff;
+   
+}   
+ .adres-mo p {
+    float: left;
+    width: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0px;
+    padding:0px;
+    margin-left:0px;
+    text-align: start;
+    color:  #fff;
+}
+.skill-list{
+    list-style: none;
+    color:  #fff;
+}
+progress{
+    background-color: rgba(11, 122, 85, 0.534);
+    height: 10px;
+    width: 50%;
+    align-content: space-around;
+    margin: 5px 30px;
+    border-radius: 20px;
+}
+article{
+    float: right;
+    width: 70%;
+    height: 1200px;
+    background-color: #edf1fc;
+    
+}
+ 
+.icon{
+    float: left;
+    padding: 0 16px 0 26px;
+    margin-top: 5px;
+    font-size: 21px;
+    color: #fff; 
+}
+.title-r{
+    width:200px;
+    height: 40px;
+    color: #eaebed;
+    float: left;
+    padding: 5px 10px;
+    margin: 20px 20px 0px 0px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+/*start personal*/
+
+.personal {
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #edf1fc;
+    overflow: hidden;
+    
+    height: 20%;
+   
+}
+.personal-top{
+    height: 50px;
+    width: 40%;
+    background-color: #2196f3;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.personal-par{
+    text-align: start;
+    margin:20px 30px 20px 40px;
+    padding-right: 30px;
+   
+}
+/*end personal */
+
+/*start education*/
+.education {
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #edf1fc;
+    overflow: hidden;
+   
+    height: 20%;
+}
+.education-top{
+    height: 50px;
+    width: 40%;
+    background-color: #2196f3;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.education-par{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 10px 20px 30px 20px;
+} 
+
+/*end education*/
+/*start courses*/
+.courses {
+    width: 100%;
+ 
+    background-color: #edf1fc;
+
+    height: 40%;
+}
+
+
+.courses-top{
+    height: 50px;
+    width: 40%;
+    background-color: #2196f3;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.courses-details{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+/*end courses*/
+
+/*start experince2*/
+.experience {
+    width: 100%;
+  
+    background-color: #edf1fc;
+   
+   
+    height: 20%;
+
+}
+.experience-top{
+    height: 50px;
+    width: 40%;
+    background-color: #2196f3;
+    margin-left: 50px;
+    margin-top: 16px;
+    align-items: center;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+}
+.experience-par{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+ 
+    
+   
+       
+}
+table,th , td{
+  border: 1px solid  #c1cdf7;
+  font-family: "Arial", sans-serif;
+  text-align: left;
+  width: 600px;
+  height: 20px;
+  border-radius:3px;
+  margin-top: 10px;
+  margin-bottom:10px; 
+  text-align: left;
+}
+table{
+    border: none;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+
+.t-course-name,.t-course-place{
+ width: 250px;
+
+  padding: 5px;
+    
+}
+
+.t-course-date,.t-course-period{
+     width: 80px;
+
+  padding: 5px;
+        
+}
+
+
+
+.foto{
+    margin-top:50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+
+  1) To create a hidden file or folder, and display it in the CLI.
+
+   -  mkdir desktop\myfolder
+   -  to hide it              :attrib +h ./desktop/myfolder
+   -  to disply it in the CLI :attrib -h ./desktop/myfolder
+
+2 - To create multiple nested directories :
+    - mkdir desktop\first\second\third 
+
+3 - to append a message to a file , without a newline charachter so the output would be :
+   first message 
+   second message
+
+   - echo first message > ./desktop/myfolder/mytextfile.txt
+   - echo second message >> ./desktop/myfolder/mytextfile.txt
+
+ 
+   
+   
+
+
+
+
+
