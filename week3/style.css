@@ -1,0 +1,621 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "RO Sans",Calibri,sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin-left: 47% ; 
+}
+
+.navBar {
+  background-color:#01689b;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin: auto;
+}
+
+.mainNav > a {
+  margin-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  display: flex;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.mainNav li {
+  padding: 0 10px;
+  font-size: 1.25rem;
+}
+
+.mainNav a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainNav a:hover {
+  text-decoration: underline;
+}
+
+.burgerMenu {
+  display: none;
+  justify-self: flex-end;
+  margin-left: auto;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.burgerMenu i {
+  font-size: 2.5rem;
+}
+
+.wrapper {
+  background-image: url('https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/basisschool_lerares_hero1920px.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+
+.topTaskNavigation {
+  background-color: white;
+  padding: 15px;
+  color:#01689b;
+}
+
+.topTaskNavigation h2 {
+  color: black;
+  font-weight: 300;
+}
+
+.topTask {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.topTask li::before {
+  content: '> ';
+  font-weight: 900;
+}
+
+.topTask li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #01689b;
+  font-weight: 900;
+  line-height: 2.5rem;
+}
+
+.topTask li a:hover {
+  text-decoration: underline;
+  color: #003c5a;
+}
+
+.searchForm {
+  justify-self: flex-end;
+  margin-left: auto;
+  display: flex;
+  height: 50px;
+  flex-basis: 29%;
+}
+
+.searchForm input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.searchSubmit {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  
+}
+
+.editorialNavigation {
+  background-color:#f3f3f3;
+}
+
+.content,
+.articleContent,
+.newsContent,
+.footerContent,
+.languages-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.navItem a,
+.newsItem a {
+  text-decoration: none;
+}
+
+.navItem h3,
+.newsItem h3 {
+  color: #01689b;
+  font-size: 1.5rem;
+}
+
+.navItem p {
+  color:#003c5a;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.navItem:hover h3,
+.articleItem:hover h3,
+.newsItem:hover h3,
+.newsMore:hover,
+.footerItem a:hover {
+  text-decoration: underline;
+}
+
+.articleItem a {
+  text-decoration: none;
+}
+
+.articleItem h3 {
+  color: #01689b;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.articleItem p,
+.newsItem p {
+  color: #003c5a;
+}
+
+.articleImage {
+  position: relative;
+}
+
+.articleImage p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.articleImage img {
+  width: 100%;
+}
+
+.articleN3 {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+.articleN3 h3 {
+  margin-top: 0;
+}
+
+.articleN3 i {
+  margin-top: 5px;
+}
+
+.newsPublishTime {
+  font-weight: 900;
+}
+
+.newsWrapper h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsMore {
+  text-decoration: none;
+  color: #01689b;
+  font-weight: 900;
+}
+
+.questionsContent {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.questionsItem {
+  border: 4px solid #cbd2e3;
+  padding: 0 50px;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.questionsItem a {
+  text-decoration: none;
+}
+
+.questionsItem h1,
+h2 {
+  margin: 2px 0;
+}
+
+.questionsItem:first-child h1 {
+  color: #01689b;
+  font-size: 3rem;
+}
+
+.questionsItem:nth-child(2) h2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.questionsItem:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.questionsItem:nth-child(2) h1 {
+  color: #a90061;
+  font-size: 2.5rem;
+}
+
+.questionsItem:first-child h2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.footerWrapper {
+  background-color: #01689b;
+}
+
+.footerItem {
+  color: white;
+  padding: 50px 50px;
+  box-sizing: border-box;
+}
+
+.footerItem:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footerItem:nth-child(3) {
+  justify-self: flex-start;
+}
+
+.footerItem p {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  text-align: center;
+    font-family: "RO serif";
+    
+}
+
+.footerItem > ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.footerItem a {
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+  font-size: 1.15rem;
+  font-family: "RO Sans",Calibri,sans-serif;
+}
+
+.footerItem > h2 {
+  display: inline-block;
+  font-size: 1.75rem;
+  font-family: "RO Sans",Calibri,sans-serif;
+  font-weight: 400;
+}
+
+.languages-wrapper {
+  justify-content: center;
+}
+
+.languages-wrapper li {
+  border: 1px solid #b2d7ee;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.languages-wrapper a {
+  color: #01689b;
+  text-decoration: none;
+}
+
+.languages-wrapper li:first-child {
+  color: #003c5a;
+  border: none;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1200px) {
+  .mainNav {
+    flex-basis: 80%;
+  }
+
+  .topTaskNavigation {
+    flex-basis: 29%;
+  }
+
+  .navItem {
+    flex-basis: 22%;
+  }
+
+  .editorialNavigation,
+  .articlesWrapper,
+  .newsWrapper,
+  .questionsWrapper {
+    padding: 50px 10%;
+  }
+
+  .articleItem,
+  .newsItem {
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin: 0;
+  }
+
+  .newsWrapper,
+  .questionsWrapper {
+    padding-top: 0;
+  }
+
+  .articlesWrapper {
+    padding-bottom: 0;
+  }
+
+  .questionsItem {
+    flex-basis: 30%;
+  }
+
+  .footerItem {
+    flex-basis: 25%;
+    margin: 0;
+  }
+
+  .footerItem:first-child {
+    flex-basis: 50%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .mainNav {
+    flex-basis: 100%;
+    padding: 0 15px;
+    flex-wrap: wrap;
+  }
+
+  .topTaskNavigation {
+    flex-basis: 33.333%;
+  }
+
+  .mainNav li {
+    font-size: 1rem;
+  }
+
+  .navItem {
+    flex-basis: 30%;
+  }
+
+  .editorialNavigation,
+  .artilesWrapper,
+  .newsWrapper,
+  .questionsWrapper {
+    padding: 50px 50px;
+  }
+
+  .articleItem {
+    flex: 0 0 45%;
+  }
+
+  .newsItem {
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin: 0;
+  }
+
+  .articleItem:last-child {
+    flex-grow: 1;
+  }
+
+  .newsWrapper,
+  .questionsWrapper {
+    padding-top: 0;
+  }
+
+  .articlesWrapper {
+    padding-bottom: 0;
+  }
+
+  .questionsItem {
+    flex-basis: 30%;
+  }
+
+  .footerItem {
+    flex-basis: 25%;
+    margin: 0;
+  }
+
+  .footerItem:first-child {
+    flex-basis: 50%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .mainNav {
+    flex-basis: 100%;
+    padding: 0 15px;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+
+  .topTaskNavigation {
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  .searchForm {
+    order: 1;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+    
+    
+  .mainNav ul {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: inline-block;
+  }
+
+  .navItem {
+    flex-basis: 45%;
+  }
+
+  .editorialNavigation,
+  .articlesWrapper,
+  .newsWrapper,
+  .questionsWrapper {
+    padding: 50px 25px;
+  }
+
+  .articleItem,
+  .newsItem {
+    flex: 0 0 45%;
+  }
+
+  .articleItem:last-child {
+    flex-grow: 1;
+  }
+
+  .newsWrapper,
+  .questionsWrapper {
+    padding-top: 0;
+  }
+
+  .articlesWrapper {
+    padding-bottom: 0;
+  }
+
+  .questionsItem{
+    flex-basis: 100%;
+  }
+
+  .footerItem {
+    flex-basis: 50%;
+    margin: 0;
+  }
+
+  .footerItem:first-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav {
+   
+    flex-basis: 100%;
+    padding: 0 15px;
+    flex-wrap: wrap;
+  }
+
+  .mainNav ul {
+    display: none;
+  }
+
+  .burgerMenu {     
+    display: inline-block;
+  }
+
+  .wrapper {   
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+
+  .topTaskNavigation {
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  .searchForm {
+    order: 1;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+   
+  }
+
+  .navItem {
+    flex-basis: 100%;
+  }
+
+  .editorialNavigation,
+  .articlesWrapper,
+  .newsWrapper,
+  .questionsWrapper {
+    padding: 50px 10px;
+  }
+
+  .articleItem,
+  .newsItem {
+    flex: 0 0 100%;
+  }
+
+  .newsWrapper,
+  .questionsWrapper {
+    padding-top: 0;
+  }
+
+  .articlesWrapper {
+    padding-bottom: 0;
+  }
+
+  .questionsItem {
+    flex-basis: 100%;
+  }
+
+  .footerItem {
+    flex-basis: 50%;
+    margin: 0;
+  }
+
+  .footerItem:first-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+
