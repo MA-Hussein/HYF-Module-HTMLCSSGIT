@@ -15,7 +15,7 @@ body{
 
 .logo {
     display: flex;
-    margin-left: 33%;
+    margin:auto;
 }
 
 .navBar {
