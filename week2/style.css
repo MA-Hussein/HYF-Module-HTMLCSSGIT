@@ -160,6 +160,9 @@ p {
         clear: both;
         font-size: 1rem;
     }
+    h1{
+        font-size:6rem;
+    }
     
 }
 
